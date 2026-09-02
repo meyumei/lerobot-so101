@@ -1,0 +1,53 @@
+Experiment: ACT Pick Blue Box v2
+Run name: act_pick_blue_box_v2_83ep
+
+Dataset:
+Episodes: 83
+Frames: 34248
+FPS: 30
+Task: Pick up the blue box.
+Cameras: overhead, right_wrist
+State: 6D
+Action: 6D
+
+Training:
+Policy: ACT
+Batch size: 8
+Steps: 30000
+Approx epochs: 7.01
+Save frequency: 5000
+Chunk size: 100
+n_action_steps: 100
+Learning rate: 1e-5
+
+Exported checkpoints:
+020000
+025000
+030000
+EOFcat > ~/act_pick_blue_box_v2_83ep_export/training_summary.txt <<'EOF'
+Experiment: ACT Pick Blue Box v2
+Run name: act_pick_blue_box_v2_83ep
+
+Dataset:
+Episodes: 83
+Frames: 34248
+FPS: 30
+Task: Pick up the blue box.
+Cameras: overhead, right_wrist
+State: 6D
+Action: 6D
+
+Training:
+Policy: ACT
+Batch size: 8
+Steps: 30000
+Approx epochs: 7.01
+Save frequency: 5000
+Chunk size: 100
+n_action_steps: 100
+Learning rate: 1e-5
+
+Exported checkpoints:
+020000
+025000
+030000
