@@ -1,0 +1,2 @@
+/100000 [3:44:24<02:16,  7.34step/s]INFO 2026-09-02 16:19:57 ot_train.py:769 step:99K smpl:2M ep:4K epch:38.99 l
+16:22:12 ot_train.py:769 step:100K smpl:2M ep:4K epch:39.38 loss:0.053 grdn:3.554 lr:1.0e-05 data_s:0.002 prep_s

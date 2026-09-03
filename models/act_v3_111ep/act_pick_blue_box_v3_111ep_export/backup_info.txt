@@ -1,0 +1,22 @@
+Experiment: ACT Pick Blue Box v3
+
+Dataset:
+Name: so101-right-pick-blue-box-v3-clean
+Featurize Dataset ID: 177b9d6e-d5d3-44b6-a491-bc871815fc20
+Episodes: 111
+Frames: 40627
+
+Model archive:
+act_pick_blue_box_v3_111ep_20k_40k_60k_80k_100k.tar.gz
+
+SHA256:
+47946f462e0f2a71cbf3ffa1ff4945c697535b72a9149ae8d2829109beb12ced
+
+Windows SHA256 verified: YES
+
+Exported checkpoints:
+020000
+040000
+060000
+080000
+100000

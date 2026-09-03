@@ -1,0 +1,47 @@
+Experiment: ACT Pick Blue Box v3
+Run name: act_pick_blue_box_v3_100k
+
+Dataset:
+Dataset: so101-right-pick-blue-box-v3-clean
+Episodes: 111
+Frames: 40627
+FPS: 30
+Cameras: overhead, right_wrist
+State: 6D
+Action: 6D
+
+Training:
+Policy: ACT
+Batch size: 16
+Num workers: 8
+Steps: 100000
+Approx epochs: 39.38
+Save frequency: 5000
+Learning rate: 1e-5
+GPU: NVIDIA GeForce RTX 4090
+Training time: 3:46:39
+
+Final training log:
+Step: 100000
+Loss: 0.053
+L1 loss: 0.052
+KLD loss: 0.000
+Step time: 0.135 s
+Samples/s: 118
+GPU memory reported by trainer: 6.85 GB
+
+Exported checkpoints:
+020000
+040000
+060000
+080000
+100000
+
+Loss record:
+Step 1K:   loss=3.104, l1_loss=0.486, kld_loss=0.262, gradient_norm=68.969
+Step 2K:   loss=1.238, l1_loss=0.305, kld_loss=0.093, gradient_norm=41.530
+Step 100K: loss=0.053, l1_loss=0.052, kld_loss=0.000, gradient_norm=3.554
+
+Note:
+Full intermediate loss history is unavailable because training stdout was not persisted to a log file.
+The tmux scrollback retained only the final two metric log lines after training.
